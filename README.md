@@ -37,7 +37,7 @@ When activated you sould see `(.venv)` written on the left of your terminal wind
 ```sh
 pip install requirements.txt
 ```
-from the command line to install all dependencies.
+from the command line.
 
 ### Spectral Efficiency (SE)
 1. Open [SE_Calculation_GUI.ipynb](./SE-and-Tandems/notebooks/SE_Calculation_GUI.ipynb).
