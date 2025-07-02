@@ -1,0 +1,17 @@
+colorama
+ipywidgets
+matplotlib
+numpy
+pandas
+traitlets
+cycler
+ipython
+scipy
+openpyxl
+iv-params
+os-sys
+textwrap3
+tk
+pytest-warnings
+datetime
+jupyterlab

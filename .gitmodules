@@ -1,0 +1,3 @@
+[submodule "SE-and-Tandems"]
+	path = SE-and-Tandems
+	url = https://github.com/NREL/SE-and-Tandems.git
