@@ -4,6 +4,14 @@ This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/N
 ## How to use
 
 ### Installation
+0. Make sure you have Python installed on your computer.
+You can check this by opening a command line and running
+```sh
+python --version
+```
+If you have it installed it should rint something like `Python 3.13.3` (version string may vary).
+If you don't have Python installed you can get it through the [Microsoft Store](https://apps.microsoft.com/search/publisher?name=Python+Software+Foundation) on Windows, or [download it directly from the Python website](https://www.python.org/downloads/).
+
 1. Clone this repo by running
 ```sh
 git clone --recurse-submodules https://github.com/uni-stuttgart-ipv/nrel_se_and_tandems.git`
