@@ -1,5 +1,5 @@
 # NREL Sectral Efficiency and Tandem calculator
-This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/NREL/SE-and-Tandems) designed for easier installation and use. The package is included as a Git submodule (https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/NREL/SE-and-Tandems) designed for easier installation and use. The package is included as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 ## How to use
 
