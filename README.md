@@ -8,7 +8,7 @@ This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/N
 
 0. Install [Anaconda](https://www.anaconda.com/download) if it isn't already.
 
-1. Download the [`nrel_se_and_tandem.yml`](nrel_se_and_tandem.yml) file.
+1. Download the [`nrel_se_and_tandems.yml`](nrel_se_and_tandems.yml) file.
 
 2. Start `Anaconda Navigator`.
 
@@ -25,7 +25,7 @@ This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/N
     ```
     This accepts the terms of service for the required package repositories.
 
-5. Click `Import` at the bottom of the `Environments` tab and select the [`nrel_se_and_tandem.yml`] file you downloaded in step 1.
+5. Click `Import` at the bottom of the `Environments` tab and select the [`nrel_se_and_tandems.yml`] file you downloaded in step 1.
 
     You can change the name of the environemnt if you want.
 
