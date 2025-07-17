@@ -10,6 +10,8 @@ This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/N
 
 1. Download the [`nrel_se_and_tandems.yml`](nrel_se_and_tandems.yml) file.
 
+    Look for the ![GitHub download raw file](imgs/github_download.png) icon on the right of the page.
+
 2. Start `Anaconda Navigator`.
 
 3. Open a `conda` terminal.
