@@ -1,9 +1,46 @@
 # NREL Sectral Efficiency and Tandem calculator
 This is a wrapper around the [`NREL SE and Tandem` package](https://github.com/NREL/SE-and-Tandems) designed for easier installation and use. The package is included as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
-## How to use
 
-### Installation
+## Installation
+
+### Anaconda (recommended)
+
+0. Install [Anaconda](https://www.anaconda.com/download) if it isn't already.
+
+1. Download the [`nrel_se_and_tandem.yml`](nrel_se_and_tandem.yml) file.
+
+2. Start `Anaconda Navigator`.
+
+3. Open a `conda` terminal.
+    1. Click on the `Environments` tab.
+    2. Click on the play button of the active environment (it doesn't matter which environment is active).
+    3. Click `Terminal`
+
+    ![Open conda terminal](imgs/anaconda_open_terminal-sm.png)
+
+4. In the prompt, run
+    ```bash
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r --channel https://repo.anaconda.com/pkgs/msys2 & exit
+    ```
+    This accepts the terms of service for the required package repositories.
+
+5. Click `Import` at the bottom of the `Environments` tab and select the [`nrel_se_and_tandem.yml`] file you downloaded in step 1.
+
+    You can change the name of the environemnt if you want.
+
+    It will take a few minutes to complete the import process.
+
+6. Ensure the new environemnt is active. 
+
+    The active environment is indicated by a green line to the left of the name adn the play button to the right.
+
+    Click on an environment to activate it.
+
+7. In the `Home` tab launch `JupyterLab`. Follow the [How to use](#how-to-use) instructions. 
+
+### Python (advanced)
+
 0. Make sure you have Python installed on your computer.
 You can check this by opening a command line and running
 ```sh
@@ -35,9 +72,16 @@ When activated you sould see `(.venv)` written on the left of your terminal wind
 
 3. Install the required dependencies 
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 from the command line.
+
+4. Install a Jupyter notebook server and client.
+Most users will do this with [Jupyter](https://jupyter.org/) or the  [VS Code Python extensions](https://code.visualstudio.com/docs/languages/python).
+
+5. Run the Jupyter server using a Python kernel with the required packages.
+
+## How to use
 
 ### Spectral Efficiency (SE)
 1. Open [SE_Calculation_GUI.ipynb](./SE-and-Tandems/notebooks/SE_Calculation_GUI.ipynb).
